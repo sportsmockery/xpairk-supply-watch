@@ -1,16 +1,28 @@
 {
-  "updated": "2026-10-03T13:07:21.499003-05:00",
-  "updated_label": "Sat Oct 03, 01:07 PM CT",
+  "updated": "2026-10-04T06:07:09.363625-05:00",
+  "updated_label": "Sun Oct 04, 06:07 AM CT",
   "territory": "Chicago Southside & Northwest Indiana",
   "baseline": false,
   "counts": {
-    "high": 0,
+    "high": 1,
     "medium": 0,
-    "low": 2,
-    "tracked": 53,
+    "low": 4,
+    "tracked": 52,
     "queries": 37
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "severity": "high",
+      "asset": "185 CFM towable air compressor",
+      "title": "Kaeser Compressors in Illinois & Iowa - Delta Industries",
+      "domain": "www.deltaind.net",
+      "url": "https://www.deltaind.net/products/kaeser-air-compressors/",
+      "in_territory": true,
+      "units": null,
+      "kind": "listing",
+      "why": "listing inside territory for a priority asset"
+    }
+  ],
   "gated": [
     {
       "name": "United Rentals Total Control / branch inventory",
@@ -107,6 +119,18 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "high",
+      "title": "Kaeser Compressors in Illinois & Iowa - Delta Industries",
+      "domain": "www.deltaind.net",
+      "url": "https://www.deltaind.net/products/kaeser-air-compressors/",
+      "in_territory": true,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-04"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "high",
       "title": "Chicago Pneumatic Products",
       "domain": "www.compressorworld.com",
       "url": "https://www.compressorworld.com/brands/1537/chicago-pneumatic",
@@ -134,18 +158,6 @@
       "title": "Air compressor for sale",
       "domain": "compressors.cp.com",
       "url": "https://compressors.cp.com/en-us/air-compressor-for-sale",
-      "in_territory": true,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "high",
-      "title": "Used Diesel Driven Air Compressors For Sale | Surplus Record",
-      "domain": "surplusrecord.com",
-      "url": "https://surplusrecord.com/machinery-equipment/diesel-driven-air-compressors/",
       "in_territory": true,
       "units": null,
       "kind": "listing",
@@ -203,6 +215,18 @@
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "high",
+      "title": "Used Wacker Neuson Light Tower for sale",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Wacker+Neuson-Light+Tower",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-01"
+    },
+    {
+      "asset_id": "lt",
+      "asset": "Light tower",
+      "severity": "high",
       "title": "Used Light Tower for sale - IronPlanet",
       "domain": "www.ironplanet.com",
       "url": "https://www.ironplanet.com/Light+Tower",
@@ -222,18 +246,6 @@
       "units": 17,
       "kind": "listing",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "high",
-      "title": "Industrial Generator Inventory",
-      "domain": "woodstockpower.com",
-      "url": "https://woodstockpower.com/search-generators/",
-      "in_territory": false,
-      "units": 2,
-      "kind": "listing",
-      "first_seen": "2026-10-01"
     },
     {
       "asset_id": "comp185",
@@ -371,18 +383,6 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "New & Used Atlas-Copco XAS 185 Air Compressor for sale",
-      "domain": "www.machinio.com",
-      "url": "https://www.machinio.com/atlas-copco/xas-185/air-compressors",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
       "title": "Used Equipment for Sale in Evansville IN",
       "domain": "www.kobersteins.com",
       "url": "https://www.kobersteins.com/forsale.asp",
@@ -431,18 +431,6 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Find the Right Generac Dealer ...",
-      "domain": "www.generac.com",
-      "url": "https://www.generac.com/home-standby-generators/home-dealer-locator/dealer-tiers/",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-03"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
       "title": "Doosan Mobile Generators - 25-70 kVa",
       "domain": "carletonequipment.com",
       "url": "https://carletonequipment.com/collections/doosan-mobile-generators-25-70-kva",
@@ -450,18 +438,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
-      "title": "Wacker Neuson G70",
-      "domain": "www.equipworld.com",
-      "url": "https://www.equipworld.com/models/9313408821",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-01"
     },
     {
       "asset_id": "gen",
@@ -479,9 +455,21 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "New & Used Multiquip DCA70 for sale | Machinio",
-      "domain": "www.machinio.com",
-      "url": "https://www.machinio.com/multiquip/dca70",
+      "title": "Wacker Neuson G70 Trailer Mounted Diesel Generator \u00bb Turnkey Industries",
+      "domain": "turnkey-industries.com",
+      "url": "https://turnkey-industries.com/wacker-neuson-g70-trailer-mounted-generator",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-04"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "Multiquip Generators For Sale | DCA Series",
+      "domain": "powergenenterprises.com",
+      "url": "https://powergenenterprises.com/brand/multiquip/",
       "in_territory": false,
       "units": null,
       "kind": "listing",
@@ -527,21 +515,21 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Towable Generators | pdgenerators",
-      "domain": "www.pdgenerators.com",
-      "url": "https://www.pdgenerators.com/towable-generators",
+      "title": "ATLAS COPCO Generators For Sale - 430 Listings",
+      "domain": "www.powersystemstoday.com",
+      "url": "https://www.powersystemstoday.com/listings/for-sale/atlas-copco/generators/153001",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-09-30"
+      "first_seen": "2026-10-04"
     },
     {
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "100kW Generators for Sale - New and Used Options In Stock",
-      "domain": "www.wpowerproducts.com",
-      "url": "https://www.wpowerproducts.com/sales/100-kw-generators/",
+      "title": "Towable Generators | pdgenerators",
+      "domain": "www.pdgenerators.com",
+      "url": "https://www.pdgenerators.com/towable-generators",
       "in_territory": false,
       "units": null,
       "kind": "listing",
@@ -572,6 +560,30 @@
       "first_seen": "2026-10-02"
     },
     {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "Buy or Sell Used Generator Set for Sale | Specifications | CSDG",
+      "domain": "csdieselgenerators.com",
+      "url": "https://csdieselgenerators.com/Generators.html",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-04"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "New & Used 100kw diesel generator - Machinio",
+      "domain": "www.machinio.com",
+      "url": "https://www.machinio.com/cat/100kw-diesel-generator",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-04"
+    },
+    {
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "low",
@@ -582,18 +594,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-01"
-    },
-    {
-      "asset_id": "lt",
-      "asset": "Light tower",
-      "severity": "low",
-      "title": "ALLMAND BROS NIGHT-LITE PRO Light Towers For Sale",
-      "domain": "www.machinerytrader.com",
-      "url": "https://www.machinerytrader.com/listings/for-sale/allmand-bros/night-lite-pro/light-towers/1045",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "lt",
