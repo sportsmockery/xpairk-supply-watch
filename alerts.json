@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-05T06:07:21.080844-05:00",
-  "updated_label": "Mon Oct 05, 06:07 AM CT",
+  "updated": "2026-10-05T13:07:41.490462-05:00",
+  "updated_label": "Mon Oct 05, 01:07 PM CT",
   "territory": "Chicago Southside & Northwest Indiana",
   "baseline": false,
   "counts": {
     "high": 0,
     "medium": 0,
-    "low": 6,
-    "tracked": 58,
+    "low": 2,
+    "tracked": 60,
     "queries": 37
   },
   "alerts": [],
@@ -231,7 +231,19 @@
       "domain": "www.chicagoindustrial.com",
       "url": "https://www.chicagoindustrial.com/inventory/other/",
       "in_territory": true,
-      "units": null,
+      "units": 17,
+      "kind": "listing",
+      "first_seen": "2026-09-30"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "high",
+      "title": "Generators For Sale | PowerGen, Inc.",
+      "domain": "powergenserv.com",
+      "url": "https://powergenserv.com/inventory/?brand=wacker-neuson",
+      "in_territory": false,
+      "units": 32,
       "kind": "listing",
       "first_seen": "2026-09-30"
     },
@@ -371,21 +383,21 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "Atlas Copco XAS 185 KD7 For Sale - C72680",
-      "domain": "www.aisequip.com",
-      "url": "https://www.aisequip.com/pre-owned-machines/category/compressor/atlas-copco-xas-185-kd7-c72680/",
+      "title": "Used Copco XAS185 for sale. Atlas-Copco equipment & more ...",
+      "domain": "www.machinio.com",
+      "url": "https://www.machinio.com/cat/copco-xas185",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-09-30"
+      "first_seen": "2026-10-03"
     },
     {
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "ATLAS COPCO XAS185 Air Compressors For Sale",
-      "domain": "www.machinerytrader.com",
-      "url": "https://www.machinerytrader.com/listings/for-sale/atlas-copco/xas185/air-compressors/1006",
+      "title": "Atlas Copco XAS 185 KD7 For Sale - C72680",
+      "domain": "www.aisequip.com",
+      "url": "https://www.aisequip.com/pre-owned-machines/category/compressor/atlas-copco-xas-185-kd7-c72680/",
       "in_territory": false,
       "units": null,
       "kind": "listing",
@@ -419,6 +431,30 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
+      "title": "AIRMAN PDS185 Air Compressors For Sale - 90 Listings",
+      "domain": "www.machinerytrader.com",
+      "url": "https://www.machinerytrader.com/listings/for-sale/airman/pds185/air-compressors/1006",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-09-30"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "low",
+      "title": "Airman PDS185S Portable Rotary Screw Air Compressor",
+      "domain": "www.compressorworld.com",
+      "url": "https://www.compressorworld.com/products/787645/airman-pds185s-portable-rotary-screw-air-compressor",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-04"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "low",
       "title": "Used Airman PDS185S Air Compressor for sale | Machinio",
       "domain": "www.machinio.com",
       "url": "https://www.machinio.com/airman/pds185s/air-compressors",
@@ -440,18 +476,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "Used Airman Compressors for sale | Machinio",
-      "domain": "www.machinio.com",
-      "url": "https://www.machinio.com/airman/air-compressors",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
-    },
-    {
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
@@ -462,18 +486,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
-      "title": "Wacker Neuson G70",
-      "domain": "www.equipworld.com",
-      "url": "https://www.equipworld.com/models/9313408821",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-01"
     },
     {
       "asset_id": "gen",
@@ -611,13 +623,25 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Buy or Sell Used Generator Set for Sale | Specifications | CSDG",
+      "title": "Buy or Sell Used Generator Set for Sale | Specifications",
       "domain": "csdieselgenerators.com",
       "url": "https://csdieselgenerators.com/Generators.html",
       "in_territory": false,
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-04"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "New & Used Towable Generators for sale. Wacker Neuson ...",
+      "domain": "www.machinio.com",
+      "url": "https://www.machinio.com/cat/towable-generators",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-05"
     },
     {
       "asset_id": "lt",
@@ -647,13 +671,13 @@
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "low",
-      "title": "New & Used Allmand Light Towers for sale",
-      "domain": "www.machinio.com",
-      "url": "https://www.machinio.com/allmand/light-towers",
+      "title": "Used Light Towers For Sale - Ritchie Bros.",
+      "domain": "www.rbauction.com",
+      "url": "https://www.rbauction.com/cp/light-towers",
       "in_territory": false,
       "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-01"
+      "kind": "auction",
+      "first_seen": "2026-10-05"
     },
     {
       "asset_id": "lt",
@@ -731,13 +755,13 @@
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "low",
-      "title": "Light towers | Machineryline USA",
-      "domain": "machineryline.com",
-      "url": "https://machineryline.com/-/light-towers--c1117",
+      "title": "Command Light Refurbished Used Towers for Sale",
+      "domain": "www.commandlight.com",
+      "url": "https://www.commandlight.com/led-light-tower-upgrade/used-light-towers-for-sale/",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-09-30"
+      "first_seen": "2026-10-03"
     }
   ]
 }
