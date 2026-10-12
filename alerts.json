@@ -1,26 +1,37 @@
 {
-  "updated": "2026-10-11T13:07:40.054658-05:00",
-  "updated_label": "Sun Oct 11, 01:07 PM CT",
+  "updated": "2026-10-12T06:07:17.794718-05:00",
+  "updated_label": "Mon Oct 12, 06:07 AM CT",
   "territory": "Chicago Southside & Northwest Indiana",
   "baseline": false,
   "counts": {
-    "high": 1,
-    "medium": 0,
-    "low": 4,
-    "tracked": 73,
+    "high": 0,
+    "medium": 2,
+    "low": 0,
+    "tracked": 74,
     "queries": 37
   },
   "alerts": [
     {
-      "severity": "high",
+      "severity": "medium",
+      "asset": "185 CFM towable air compressor",
+      "title": "Vanair",
+      "domain": "dealers.certifiedagdealer.com",
+      "url": "https://dealers.certifiedagdealer.com/vanair",
+      "in_territory": true,
+      "units": null,
+      "kind": "lead_time",
+      "why": "lead-time / supply signal"
+    },
+    {
+      "severity": "medium",
       "asset": "Mobile generator (20\u2013150 kW)",
-      "title": "Generators - Diesel Generators for sale at ARC Power Systems",
-      "domain": "www.arcpowersystems.com",
-      "url": "https://www.arcpowersystems.com/generators/diesel-generators",
-      "in_territory": false,
-      "units": 2,
-      "kind": "listing",
-      "why": "2 units in one place"
+      "title": "Used Generac Generators and Power Equipment for sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Generac-Generators+and+Power+Equipment",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "why": "auction lot; check closing time"
     }
   ],
   "gated": [
@@ -212,6 +223,18 @@
       "first_seen": "2026-09-30"
     },
     {
+      "asset_id": "lt",
+      "asset": "Light tower",
+      "severity": "high",
+      "title": "Used Light Towers for sale - 647 Listings - Boom & Bucket",
+      "domain": "www.boomandbucket.com",
+      "url": "https://www.boomandbucket.com/equipment/light-towers",
+      "in_territory": true,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-07"
+    },
+    {
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "high",
@@ -234,18 +257,6 @@
       "units": 34,
       "kind": "listing",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "high",
-      "title": "Generators - Diesel Generators for sale at ARC Power Systems",
-      "domain": "www.arcpowersystems.com",
-      "url": "https://www.arcpowersystems.com/generators/diesel-generators",
-      "in_territory": false,
-      "units": 2,
-      "kind": "listing",
-      "first_seen": "2026-10-11"
     },
     {
       "asset_id": "gen",
@@ -275,6 +286,30 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "medium",
+      "title": "Vanair",
+      "domain": "dealers.certifiedagdealer.com",
+      "url": "https://dealers.certifiedagdealer.com/vanair",
+      "in_territory": true,
+      "units": null,
+      "kind": "lead_time",
+      "first_seen": "2026-10-12"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "medium",
+      "title": "Used Generac Generators and Power Equipment for sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Generac-Generators+and+Power+Equipment",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-12"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "medium",
       "title": "Sullair T4F 185 Series Portable Diesel Compressor",
       "domain": "patriotequipment.us",
       "url": "https://patriotequipment.us/product/sullair-t4f-series-portable-diesel-compressor/",
@@ -282,18 +317,6 @@
       "units": null,
       "kind": "lead_time",
       "first_seen": "2026-10-03"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "medium",
-      "title": "Sullair 02250260-896 Kit, Cfm Sub 185 Perkins T4F 1K - Sullair",
-      "domain": "www.pe-energy.com",
-      "url": "https://www.pe-energy.com/product/sullair-02250260-896-kitcfm-sub-185-perkins-t4f-1k/",
-      "in_territory": false,
-      "units": null,
-      "kind": "lead_time",
-      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "comp185",
@@ -314,6 +337,18 @@
       "title": "Lead-Time Monitor | Open Factory",
       "domain": "open-factory.com",
       "url": "https://open-factory.com/models/lead-time-monitor/",
+      "in_territory": false,
+      "units": null,
+      "kind": "lead_time",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "medium",
+      "title": "News and events",
+      "domain": "www.atlascopco.com",
+      "url": "https://www.atlascopco.com/en-us/construction-equipment/news",
       "in_territory": false,
       "units": null,
       "kind": "lead_time",
@@ -647,13 +682,13 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "New & Used Wacker Neuson G70 Generator Set for sale | Machinio",
-      "domain": "www.machinio.com",
-      "url": "https://www.machinio.com/wacker-neuson/g70/generator-sets",
+      "title": "Wacker Neuson G70 58 kW Mobile Generator Set for Auction",
+      "domain": "www.rbauction.eu",
+      "url": "https://www.rbauction.eu/pdp/wacker-neuson-g70-58-kw-mobile-generator-set/15890379",
       "in_territory": false,
       "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-08"
+      "kind": "auction",
+      "first_seen": "2026-10-09"
     },
     {
       "asset_id": "gen",
@@ -671,13 +706,13 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Used Multiquip Heavy Equipment for sale - 57 Listings",
-      "domain": "www.boomandbucket.com",
-      "url": "https://www.boomandbucket.com/equipment/multiquip",
+      "title": "Multiquip Generators For Sale | DCA Series",
+      "domain": "powergenenterprises.com",
+      "url": "https://powergenenterprises.com/brand/multiquip/",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-10-06"
+      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "gen",
@@ -731,18 +766,6 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Atlas Copco diesel generators | Machineryline USA",
-      "domain": "machineryline.com",
-      "url": "https://machineryline.com/-/diesel-generators/Atlas-Copco--c1311tm4363",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
       "title": "New & Used Atlas-Copco Mobile Generator Sets for sale | Machinio",
       "domain": "www.machinio.com",
       "url": "https://www.machinio.com/atlas-copco/generator-sets/mobile-generator-sets",
@@ -752,28 +775,16 @@
       "first_seen": "2026-10-02"
     },
     {
-      "asset_id": "lt",
-      "asset": "Light tower",
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Used 2021 Generac MLT6SMD undefined #A9171226 for sale",
-      "domain": "www.boomandbucket.com",
-      "url": "https://www.boomandbucket.com/for-sale/2021-generac-mlt6smd-light-towers/a9171226",
+      "title": "Used Atlas Copco Special Construction Machinery for sale ...",
+      "domain": "www.truckscout24.com",
+      "url": "https://www.truckscout24.com/construction-machines/used/other/atlas-copco",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-10-10"
-    },
-    {
-      "asset_id": "lt",
-      "asset": "Light tower",
-      "severity": "low",
-      "title": "Used 2022 Generac MLT6SMDS undefined #A8569154 for sale",
-      "domain": "www.boomandbucket.com",
-      "url": "https://www.boomandbucket.com/for-sale/2022-generac-mlt6smds-light-towers/a8569154",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-11"
+      "first_seen": "2026-10-07"
     }
   ]
 }
