@@ -1,16 +1,39 @@
 {
-  "updated": "2026-10-13T06:07:07.980078-05:00",
-  "updated_label": "Tue Oct 13, 06:07 AM CT",
+  "updated": "2026-10-13T13:07:17.353785-05:00",
+  "updated_label": "Tue Oct 13, 01:07 PM CT",
   "territory": "Chicago Southside & Northwest Indiana",
   "baseline": false,
   "counts": {
-    "high": 0,
-    "medium": 0,
-    "low": 6,
-    "tracked": 71,
+    "high": 1,
+    "medium": 1,
+    "low": 2,
+    "tracked": 70,
     "queries": 37
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "severity": "high",
+      "asset": "185 CFM towable air compressor",
+      "title": "Used Atlas Copco Air Compressor for sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Atlas+Copco-Air+Compressor",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "why": "listing inside territory for a priority asset"
+    },
+    {
+      "severity": "medium",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "title": "Electrical Equipment Lead Time Index",
+      "domain": "usevawn.com",
+      "url": "https://usevawn.com/resources/electrical-equipment-lead-times/",
+      "in_territory": false,
+      "units": null,
+      "kind": "lead_time",
+      "why": "lead-time / supply signal"
+    }
+  ],
   "gated": [
     {
       "name": "United Rentals Total Control / branch inventory",
@@ -59,6 +82,18 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "high",
+      "title": "Used Atlas Copco Air Compressor for sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Atlas+Copco-Air+Compressor",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-13"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "high",
       "title": "Industrial Air Compressors for Sale | Sullair & Atlas Copco",
       "domain": "www.brabazon.com",
       "url": "https://www.brabazon.com/compressors/industrial",
@@ -66,6 +101,30 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-11"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "high",
+      "title": "Air Comp #23 Kaeser M58 210 CFM",
+      "domain": "www.kobersteins.com",
+      "url": "https://www.kobersteins.com/forsale.asp?action=category&category=4&key=C+23",
+      "in_territory": true,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "high",
+      "title": "Chicago Pneumatic Products",
+      "domain": "www.compressorworld.com",
+      "url": "https://www.compressorworld.com/brands/1537/chicago-pneumatic",
+      "in_territory": true,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "comp185",
@@ -90,18 +149,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-10"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "high",
-      "title": "Chicago Pneumatic Products",
-      "domain": "www.compressorworld.com",
-      "url": "https://www.compressorworld.com/brands/1537/chicago-pneumatic",
-      "in_territory": true,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "lt",
@@ -164,18 +211,6 @@
       "first_seen": "2026-09-30"
     },
     {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "high",
-      "title": "Industrial Generator Inventory",
-      "domain": "woodstockpower.com",
-      "url": "https://woodstockpower.com/search-generators/",
-      "in_territory": false,
-      "units": 2,
-      "kind": "listing",
-      "first_seen": "2026-10-01"
-    },
-    {
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "medium",
@@ -198,6 +233,18 @@
       "units": null,
       "kind": "lead_time",
       "first_seen": "2026-10-03"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "medium",
+      "title": "Sullair 02250260-896 Kit, Cfm Sub 185 Perkins T4F 1K - Sullair",
+      "domain": "www.pe-energy.com",
+      "url": "https://www.pe-energy.com/product/sullair-02250260-896-kitcfm-sub-185-perkins-t4f-1k/",
+      "in_territory": false,
+      "units": null,
+      "kind": "lead_time",
+      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "comp185",
@@ -234,6 +281,18 @@
       "units": null,
       "kind": "lead_time",
       "first_seen": "2026-10-02"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "medium",
+      "title": "Electrical Equipment Lead Time Index",
+      "domain": "usevawn.com",
+      "url": "https://usevawn.com/resources/electrical-equipment-lead-times/",
+      "in_territory": false,
+      "units": null,
+      "kind": "lead_time",
+      "first_seen": "2026-10-13"
     },
     {
       "asset_id": "gen",
@@ -296,40 +355,28 @@
       "first_seen": "2026-10-06"
     },
     {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "25\u201399 KW Diesel Generators For Portable And Stationary ...",
-      "domain": "turnkey-industries.com",
-      "url": "https://turnkey-industries.com/25kw-99kw-generators-for-sale",
-      "in_territory": true,
+      "title": "2018 Doosan P250/HP185 Mobile Air Compressor for Auction",
+      "domain": "www.rbauction.com",
+      "url": "https://www.rbauction.com/pdp/2018-doosan-p250-hp185-mobile-air-compressor/15854733",
+      "in_territory": false,
       "units": null,
-      "kind": "listing",
-      "first_seen": "2026-09-30"
+      "kind": "auction",
+      "first_seen": "2026-10-10"
     },
     {
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "Used Doosan Air Compressors and Treatment Equipment for sale",
-      "domain": "www.govplanet.com",
-      "url": "https://www.govplanet.com/Doosan-Air+Compressors+and+Treatment+Equipment",
+      "title": "2023 DOOSAN P185 185 CFM AIR COMPRESSOR For Sale",
+      "domain": "www.newmantractor.com",
+      "url": "https://www.newmantractor.com/equipment/air-compressor/2023-doosan-p185-185cfm-air-compressor-EQ0010861",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-10-13"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "Doosan P185 Equipment For Sale",
-      "domain": "www.equipmenttrader.com",
-      "url": "https://www.equipmenttrader.com/Doosan-P185/equipment-for-sale?make=Doosan%7C765314825&model=P185%7C0",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-09"
+      "first_seen": "2026-10-11"
     },
     {
       "asset_id": "comp185",
@@ -342,18 +389,6 @@
       "units": null,
       "kind": "auction",
       "first_seen": "2026-10-06"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "2018 Doosan P250/HP185 Mobile Air Compressor for Auction",
-      "domain": "www.rbauction.com",
-      "url": "https://www.rbauction.com/pdp/2018-doosan-p250-hp185-mobile-air-compressor/15854733",
-      "in_territory": false,
-      "units": null,
-      "kind": "auction",
-      "first_seen": "2026-10-10"
     },
     {
       "asset_id": "comp185",
@@ -383,30 +418,6 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "Sullair 185 Equipment For Sale",
-      "domain": "www.equipmenttrader.com",
-      "url": "https://www.equipmenttrader.com/Sullair-185/equipment-for-sale?make=Sullair%7C2322770&model=185%7C0",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-13"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "Atlas Copco Air Compressors and Treatment Equipment ...",
-      "domain": "www.ironplanet.com",
-      "url": "https://www.ironplanet.com/Atlas+Copco-Air+Compressors+and+Treatment+Equipment",
-      "in_territory": false,
-      "units": null,
-      "kind": "auction",
-      "first_seen": "2026-10-10"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
       "title": "Atlas Copco XAS 185 Towable Air Compressor",
       "domain": "www.proxibid.com",
       "url": "https://www.proxibid.com/lotinformation/102777612/atlas-copco-xas-185-towable-air-compressor",
@@ -419,13 +430,25 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "New & Used Atlas-Copco XAS 185 Air Compressor for sale",
-      "domain": "www.machinio.com",
-      "url": "https://www.machinio.com/atlas-copco/xas-185/air-compressors",
+      "title": "Atlas Copco XAS 185 KD7 For Sale - C72680",
+      "domain": "www.aisequip.com",
+      "url": "https://www.aisequip.com/pre-owned-machines/category/compressor/atlas-copco-xas-185-kd7-c72680/",
       "in_territory": false,
       "units": null,
       "kind": "listing",
       "first_seen": "2026-09-30"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "low",
+      "title": "2008 Atlas Copco XAS 185 Towable Air Compressor",
+      "domain": "www.proxibid.com",
+      "url": "https://www.proxibid.com/lotinformation/102777609/2008-atlas-copco-xas-185-towable-air-compressor",
+      "in_territory": false,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-08"
     },
     {
       "asset_id": "comp185",
@@ -467,36 +490,24 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
+      "title": "Used 2023 Airman PDS185 #A4606205 for sale",
+      "domain": "www.boomandbucket.com",
+      "url": "https://www.boomandbucket.com/for-sale/2023-airman-pds185-other/a4606205",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "low",
       "title": "Used Airman Air Compressor for sale - GovPlanet",
       "domain": "www.govplanet.com",
       "url": "https://www.govplanet.com/Airman-Air+Compressor",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-10-12"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "AIRMAN Air Compressor 185 cfm | PDS185S-6E1",
-      "domain": "www.btwequipmentsupply.com",
-      "url": "https://www.btwequipmentsupply.com/airman-185-cfm-compressor-pds185s-6",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-09"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
-      "title": "Used Generac Generators and Power Equipment for sale - IronPlanet",
-      "domain": "www.ironplanet.com",
-      "url": "https://www.ironplanet.com/Generac-Generators+and+Power+Equipment",
-      "in_territory": false,
-      "units": null,
-      "kind": "auction",
       "first_seen": "2026-10-12"
     },
     {
@@ -510,6 +521,18 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-10"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "Used Generac Generators and Power Equipment for sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Generac-Generators+and+Power+Equipment",
+      "in_territory": false,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-12"
     },
     {
       "asset_id": "gen",
@@ -563,18 +586,6 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Wacker Neuson Mobile Generators",
-      "domain": "powertradex.com",
-      "url": "https://powertradex.com/wacker-neuson-mobile-generators/",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-02"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
       "title": "Wacker Neuson G70",
       "domain": "www.equipworld.com",
       "url": "https://www.equipworld.com/models/9313408821",
@@ -587,6 +598,18 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
+      "title": "Wacker Neuson Mobile Generators",
+      "domain": "powertradex.com",
+      "url": "https://powertradex.com/wacker-neuson-mobile-generators/",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
       "title": "Wacker Neuson G70: Prices, Specs, and Trends",
       "domain": "www.machinio.com",
       "url": "https://www.machinio.com/models/wacker-neuson/g70",
@@ -594,18 +617,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-10"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
-      "title": "Wacker Neuson Generators For Sale Available - Turnkey Industries",
-      "domain": "turnkey-industries.com",
-      "url": "https://turnkey-industries.com/industrial-generator-brands/wacker-neuson-generators",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-12"
     },
     {
       "asset_id": "gen",
@@ -635,18 +646,6 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "XQ60 Tier 4 Final",
-      "domain": "www.empire-cat.com",
-      "url": "https://www.empire-cat.com/equipment/power-systems/electric-power/mobile-generator-sets/xq60-tier-4-final",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-13"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
       "title": "New Cat XQ60 For Sale - Empire Cat",
       "domain": "www.empire-cat.com",
       "url": "https://www.empire-cat.com/equipment/power-systems/electric-power/mobile-generator-sets/xq60",
@@ -659,13 +658,13 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "XQ60 Tier 4 Final Mobile Generator Sets",
-      "domain": "www.cat.com",
-      "url": "https://www.cat.com/en_US/products/new/power-systems/electric-power/mobile-generator-sets/127740.html",
+      "title": "XQ60 Tier 4 Final",
+      "domain": "www.empire-cat.com",
+      "url": "https://www.empire-cat.com/equipment/power-systems/electric-power/mobile-generator-sets/xq60-tier-4-final",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-09-30"
+      "first_seen": "2026-10-13"
     },
     {
       "asset_id": "gen",
@@ -695,6 +694,18 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
+      "title": "Used Atlas Copco Construction Machines for sale (428)",
+      "domain": "www.truckscout24.com",
+      "url": "https://www.truckscout24.com/construction-machines/used/all/atlas-copco",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-13"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
       "title": "New & Used Atlas-Copco Mobile Generator Sets for sale | Machinio",
       "domain": "www.machinio.com",
       "url": "https://www.machinio.com/atlas-copco/generator-sets/mobile-generator-sets",
@@ -702,6 +713,30 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-02"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "Used Atlas Copco Qas Construction Machines for sale (356)",
+      "domain": "www.truckscout24.com",
+      "url": "https://www.truckscout24.com/construction-machines/used/all/atlas-copco/qas",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "Portable Diesel & Industrial Diesel Generators For Sale",
+      "domain": "turnkey-industries.com",
+      "url": "https://turnkey-industries.com/inventory/industrial-diesel-generators",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-06"
     },
     {
       "asset_id": "lt",
@@ -731,37 +766,25 @@
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "low",
-      "title": "Used 2021 Generac MLT6SMD undefined #A9171226 for sale",
+      "title": "Used 2021 Generac MLT6SMDS undefined #A1024619 for sale",
       "domain": "www.boomandbucket.com",
-      "url": "https://www.boomandbucket.com/for-sale/2021-generac-mlt6smd-light-towers/a9171226",
+      "url": "https://www.boomandbucket.com/for-sale/2021-generac-mlt6smds-light-towers/a1024619",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-10-10"
+      "first_seen": "2026-10-13"
     },
     {
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "low",
-      "title": "Allmand For Sale",
+      "title": "Used Allmand Lighting and Traffic Control Devices for Sale",
       "domain": "www.ironplanet.com",
       "url": "https://www.ironplanet.com/Allmand",
       "in_territory": false,
       "units": null,
       "kind": "auction",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "lt",
-      "asset": "Light tower",
-      "severity": "low",
-      "title": "Used Wacker Neuson Light Towers for sale",
-      "domain": "www.ironplanet.com",
-      "url": "https://www.ironplanet.com/Wacker+Neuson-Light+Towers",
-      "in_territory": false,
-      "units": null,
-      "kind": "auction",
-      "first_seen": "2026-10-03"
     }
   ]
 }
