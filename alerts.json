@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-13T13:07:17.353785-05:00",
-  "updated_label": "Tue Oct 13, 01:07 PM CT",
+  "updated": "2026-10-14T06:07:27.927698-05:00",
+  "updated_label": "Wed Oct 14, 06:07 AM CT",
   "territory": "Chicago Southside & Northwest Indiana",
   "baseline": false,
   "counts": {
     "high": 1,
     "medium": 1,
-    "low": 2,
-    "tracked": 70,
+    "low": 0,
+    "tracked": 68,
     "queries": 37
   },
   "alerts": [
     {
       "severity": "high",
-      "asset": "185 CFM towable air compressor",
-      "title": "Used Atlas Copco Air Compressor for sale - IronPlanet",
+      "asset": "Light tower",
+      "title": "Wacker For Sale - IronPlanet",
       "domain": "www.ironplanet.com",
-      "url": "https://www.ironplanet.com/Atlas+Copco-Air+Compressor",
+      "url": "https://www.ironplanet.com/Wacker",
       "in_territory": true,
       "units": null,
       "kind": "auction",
@@ -25,13 +25,13 @@
     {
       "severity": "medium",
       "asset": "Mobile generator (20\u2013150 kW)",
-      "title": "Electrical Equipment Lead Time Index",
-      "domain": "usevawn.com",
-      "url": "https://usevawn.com/resources/electrical-equipment-lead-times/",
-      "in_territory": false,
+      "title": "Wacker For Sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Wacker",
+      "in_territory": true,
       "units": null,
-      "kind": "lead_time",
-      "why": "lead-time / supply signal"
+      "kind": "auction",
+      "why": "auction lot; check closing time"
     }
   ],
   "gated": [
@@ -77,30 +77,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "high",
-      "title": "Used Atlas Copco Air Compressor for sale - IronPlanet",
-      "domain": "www.ironplanet.com",
-      "url": "https://www.ironplanet.com/Atlas+Copco-Air+Compressor",
-      "in_territory": true,
-      "units": null,
-      "kind": "auction",
-      "first_seen": "2026-10-13"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "high",
-      "title": "Industrial Air Compressors for Sale | Sullair & Atlas Copco",
-      "domain": "www.brabazon.com",
-      "url": "https://www.brabazon.com/compressors/industrial",
-      "in_territory": true,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-11"
     },
     {
       "asset_id": "comp185",
@@ -190,6 +166,18 @@
       "asset_id": "lt",
       "asset": "Light tower",
       "severity": "high",
+      "title": "Wacker For Sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Wacker",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-14"
+    },
+    {
+      "asset_id": "lt",
+      "asset": "Light tower",
+      "severity": "high",
       "title": "Durable Industrial Equipment Inventory",
       "domain": "www.chicagoindustrial.com",
       "url": "https://www.chicagoindustrial.com/inventory/other/",
@@ -202,13 +190,13 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "high",
-      "title": "Generators For Sale | PowerGen, Inc.",
-      "domain": "powergenserv.com",
-      "url": "https://powergenserv.com/inventory/?brand=wacker-neuson",
+      "title": "Industrial Generator Inventory",
+      "domain": "woodstockpower.com",
+      "url": "https://woodstockpower.com/search-generators/",
       "in_territory": false,
-      "units": 34,
+      "units": 2,
       "kind": "listing",
-      "first_seen": "2026-09-30"
+      "first_seen": "2026-10-01"
     },
     {
       "asset_id": "comp185",
@@ -221,6 +209,18 @@
       "units": null,
       "kind": "lead_time",
       "first_seen": "2026-09-30"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "medium",
+      "title": "Wacker For Sale - IronPlanet",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Wacker",
+      "in_territory": true,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-14"
     },
     {
       "asset_id": "comp185",
@@ -322,6 +322,18 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
+      "title": "Generac Generator Sets - SG050NA, 60 KW, MMG25 and More",
+      "domain": "www.mylittlesalesman.com",
+      "url": "https://www.mylittlesalesman.com/c/industrial-equipment/generator-sets/generac",
+      "in_territory": true,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
       "title": "New & Used Multiquip Generator Sets for sale in Illinois, USA",
       "domain": "www.machinio.com",
       "url": "https://www.machinio.com/multiquip/generator-sets/illinois",
@@ -382,18 +394,6 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
-      "title": "Doosan Air Compressors and Treatment Equipment For Sale",
-      "domain": "www.ironplanet.com",
-      "url": "https://www.ironplanet.com/Doosan-Air+Compressors+and+Treatment+Equipment",
-      "in_territory": false,
-      "units": null,
-      "kind": "auction",
-      "first_seen": "2026-10-06"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
       "title": "Sullair Air Compressors",
       "domain": "powertradex.com",
       "url": "https://powertradex.com/sullair-air-compressors-for-sale/",
@@ -418,9 +418,33 @@
       "asset_id": "comp185",
       "asset": "185 CFM towable air compressor",
       "severity": "low",
+      "title": "Atlas Copco Air Compressors and Treatment Equipment ...",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Atlas+Copco-Air+Compressors+and+Treatment+Equipment",
+      "in_territory": false,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "low",
       "title": "Atlas Copco XAS 185 Towable Air Compressor",
       "domain": "www.proxibid.com",
       "url": "https://www.proxibid.com/lotinformation/102777612/atlas-copco-xas-185-towable-air-compressor",
+      "in_territory": false,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "asset_id": "comp185",
+      "asset": "185 CFM towable air compressor",
+      "severity": "low",
+      "title": "2008 Atlas Copco XAS 185 Towable Air Compressor",
+      "domain": "www.proxibid.com",
+      "url": "https://www.proxibid.com/lotinformation/102777609/2008-atlas-copco-xas-185-towable-air-compressor",
       "in_territory": false,
       "units": null,
       "kind": "auction",
@@ -437,18 +461,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-09-30"
-    },
-    {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "2008 Atlas Copco XAS 185 Towable Air Compressor",
-      "domain": "www.proxibid.com",
-      "url": "https://www.proxibid.com/lotinformation/102777609/2008-atlas-copco-xas-185-towable-air-compressor",
-      "in_territory": false,
-      "units": null,
-      "kind": "auction",
-      "first_seen": "2026-10-08"
     },
     {
       "asset_id": "comp185",
@@ -499,18 +511,6 @@
       "first_seen": "2026-10-10"
     },
     {
-      "asset_id": "comp185",
-      "asset": "185 CFM towable air compressor",
-      "severity": "low",
-      "title": "Used Airman Air Compressor for sale - GovPlanet",
-      "domain": "www.govplanet.com",
-      "url": "https://www.govplanet.com/Airman-Air+Compressor",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-12"
-    },
-    {
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
@@ -533,18 +533,6 @@
       "units": null,
       "kind": "auction",
       "first_seen": "2026-10-12"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
-      "title": "Generac Generator Sets For Sale",
-      "domain": "www.mylittlesalesman.com",
-      "url": "https://www.mylittlesalesman.com/generac-generator-sets-for-sale-i21c111f577m0",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-02"
     },
     {
       "asset_id": "gen",
@@ -598,18 +586,6 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Wacker Neuson Mobile Generators",
-      "domain": "powertradex.com",
-      "url": "https://powertradex.com/wacker-neuson-mobile-generators/",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-02"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
       "title": "Wacker Neuson G70: Prices, Specs, and Trends",
       "domain": "www.machinio.com",
       "url": "https://www.machinio.com/models/wacker-neuson/g70",
@@ -617,6 +593,18 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-10"
+    },
+    {
+      "asset_id": "gen",
+      "asset": "Mobile generator (20\u2013150 kW)",
+      "severity": "low",
+      "title": "Generators For Sale | PowerGen, Inc.",
+      "domain": "powergenserv.com",
+      "url": "https://powergenserv.com/inventory/?brand=wacker-neuson",
+      "in_territory": false,
+      "units": null,
+      "kind": "listing",
+      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "gen",
@@ -670,13 +658,13 @@
       "asset_id": "gen",
       "asset": "Mobile generator (20\u2013150 kW)",
       "severity": "low",
-      "title": "Used 2016 Caterpillar XQ60 Generator #A5277321 for sale",
-      "domain": "www.boomandbucket.com",
-      "url": "https://www.boomandbucket.com/for-sale/2016-caterpillar-xq60-generators/a5277321",
+      "title": "XQ60 Tier 4 Final Mobile Generator Sets",
+      "domain": "www.cat.com",
+      "url": "https://www.cat.com/en_US/products/new/power-systems/electric-power/mobile-generator-sets/127740.html",
       "in_territory": false,
       "units": null,
       "kind": "listing",
-      "first_seen": "2026-10-03"
+      "first_seen": "2026-09-30"
     },
     {
       "asset_id": "gen",
@@ -713,18 +701,6 @@
       "units": null,
       "kind": "listing",
       "first_seen": "2026-10-02"
-    },
-    {
-      "asset_id": "gen",
-      "asset": "Mobile generator (20\u2013150 kW)",
-      "severity": "low",
-      "title": "Used Atlas Copco Qas Construction Machines for sale (356)",
-      "domain": "www.truckscout24.com",
-      "url": "https://www.truckscout24.com/construction-machines/used/all/atlas-copco/qas",
-      "in_territory": false,
-      "units": null,
-      "kind": "listing",
-      "first_seen": "2026-10-06"
     },
     {
       "asset_id": "gen",
@@ -785,6 +761,30 @@
       "units": null,
       "kind": "auction",
       "first_seen": "2026-09-30"
+    },
+    {
+      "asset_id": "lt",
+      "asset": "Light tower",
+      "severity": "low",
+      "title": "Used Wacker Neuson Light Towers for sale",
+      "domain": "www.ironplanet.com",
+      "url": "https://www.ironplanet.com/Wacker+Neuson-Light+Towers",
+      "in_territory": false,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-03"
+    },
+    {
+      "asset_id": "lt",
+      "asset": "Light tower",
+      "severity": "low",
+      "title": "2010 Walker Neuson Towable Light Plant LTN6",
+      "domain": "www.proxibid.com",
+      "url": "https://www.proxibid.com/lotinformation/102933341/2010-walker-neuson-towable-light-plant-ltn6",
+      "in_territory": false,
+      "units": null,
+      "kind": "auction",
+      "first_seen": "2026-10-10"
     }
   ]
 }
